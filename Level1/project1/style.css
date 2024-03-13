@@ -62,3 +62,58 @@ html, body{
     color: white;
     background-color: orangered;
 }
+
+#main>h1{
+    color: red;
+    font-size: 140px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+
+#img2{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+
+#btm-left{
+    position: absolute;
+    left: 3%;
+    bottom: 5%;
+    font-size: 16px;
+    font-weight: 20px;
+}
+
+#btm-right{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+    font-size: 25px;
+}
+
+a{
+    
+    color: black;
+    text-decoration: none;
+}
