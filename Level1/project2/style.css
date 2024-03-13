@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+#intro{
+    padding: 30px;
+    padding-left: 30px;
+    height: 40%;
+    width: 100%;
+    background-color: rgb(241, 218, 187);
+}
+
+#intro h1{
+    letter-spacing: -3px;
+    font-size: 80px;
+    line-height: 90px;
+}
+
+#place{
+    margin-top: 40;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3,#place h4{
+    font-size: 25px;
+    font-weight: 600px;
+}
+#image{
+    height: 87%;
+    width: 100%;
+    background-image: url(photo.jpg);
+    background-size: cover;
+}
