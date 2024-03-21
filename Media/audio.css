@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    background-color: salmon;
+    height: 25%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    padding: 0px 60px;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+    padding-left: 120px;
+    font-size: 60px; 
+}
+#right{
+    font-size: 15px;
+}
+#parent{
+    border: 85px solid black;
+    
+    
+    height: 200%;
+    width: 100%;
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;
+    
+    /* margin: 50px; */
+}

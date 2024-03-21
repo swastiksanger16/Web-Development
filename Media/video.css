@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    background-color: salmon;
+    height: 25%;
+    width: 100%;
+}
+#parent{
+    border: 85px solid black;
+    
+    
+    height: 200%;
+    width: 100%;
+    background-color: honeydew;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 30px;
+    
+    /* margin: 50px; */
+}
+#nav{
+    display: flex;
+    padding: 0px 60px;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-between;
+}
+#left{
+    padding-left: 120px;
+    font-size: 60px; 
+}
+#right{
+    padding-top: 120px;
+    font-size: 15px;
+}
+/* #nav h1{
+    font-size: 80px;
+}
+#nav h2{
+    font-size: 30px;
+} */
+#vid1{
+    border: 3px solid black;
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#vid1 iframe{
+    width: 100%;
+    height: 85%;
+}
+#vid1 h3{
+    font-size: 25px;
+    font-weight: 1000;
+}
+#vid2{
+    border: 3px solid black;
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#vid2 h3{
+    font-size: 25px;
+    font-weight: 1000;
+}
+#vid2 iframe{
+    width: 100%;
+    height: 85%;
+}
+#vid3{
+    border: 3px solid black;
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#vid3 h3{
+    font-size: 25px;
+    font-weight: 1000;
+}
+#vid3 iframe{
+    width: 100%;
+    height: 85%;
+}
+#vid4{
+    border: 3px solid black;
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#vid4 iframe{
+    width: 100%;
+    height: 85%;
+}
+#vid4 h3{
+    font-size: 25px;
+    font-weight: 1000;
+}
+#vid5{
+    border: 3px solid black;
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#vid5 h3{
+    font-size: 25px;
+    font-weight: 1000;
+}
+#vid5 iframe{
+    width: 100%;
+    height: 85%;
+}
+#vid6{
+    border: 3px solid black;
+    height: 90%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#vid6 h3{
+    font-size: 25px;
+    font-weight: 1000;
+}
+#vid6 iframe{
+    width: 100%;
+    height: 85%;
+}
+#pa{
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-around;
+    border-top: 40px solid transparent;
+    height: 30%;
+    width: 100%;
+    border-bottom: 40px solid transparent;
+}
+#pa2{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    align-items: center;
+    justify-content: space-around;
+}
+#pa3{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    border-top: 40px solid transparent;
+    border-bottom: 40px solid transparent;
+    align-items: center;
+    justify-content: space-around;
+}
